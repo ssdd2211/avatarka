@@ -1,0 +1,125 @@
+body img {
+  margin: 11px;
+  /* margin-right: 50px; */
+}
+
+.blu img {
+  display: flex;
+  width: 200px;
+  height: 270px;
+  border-radius: 25px;
+  margin-top: 1px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.503);
+}
+
+.blu h1 {
+  color: brown;
+  font-weight: 900;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.blu p {
+  color: red;
+  font-size: small;
+}
+
+.card h2 {
+  color: brown;
+  padding-left: 250px;
+  box-shadow: 1px 1px 0px crimson;
+}
+
+.card ul {
+  color: crimson;
+  font-weight: bold;
+}
+
+.lin1:hover {
+  background-color: rgb(255, 21, 212);
+  color: aliceblue;
+  border-radius: 20px;
+  padding: 5px 5px 5px 10px;
+  margin: 0px 410px 0px 15px;
+}
+
+.lin2:hover {
+  background-color: rgb(196, 21, 255);
+  color: aqua;
+  border-radius: 20px;
+  padding: 5px 5px 5px 20px;
+  margin: 0px 420px 0px 15px;
+}
+
+.lin3:hover {
+  background-color: rgb(21, 255, 40);
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 5px 5px 5px 20px;
+  margin: 0px 400px 0px 15px;
+}
+
+.silk h2 {
+  padding-left: 120px;
+  color: brown;
+  box-shadow: 1px 1px 0px;
+}
+
+a:hover {
+  background-color: rgb(228, 255, 55);
+  color: dodgerblue;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.contact h2 {
+  color: rgb(217, 217, 63);
+  padding-left: 30px;
+  box-shadow: 0px 1px 0px red;
+}
+
+.btn:hover {
+  background-color: rgb(253, 246, 246);
+  color: rgb(0, 0, 0);
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.form-group .form-row {
+  display: inline-block;
+  margin-right: 40px;
+  width: 50%;
+  /* width: calc(50% -20px); */
+}
+
+.form-row label {
+  display: block;
+  font-size: 14px;
+}
+
+.form-row input,
+.form-row textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.564);
+  color: rgb(255, 251, 251);
+  padding: 15px 0 5px;
+  margin: 0 auto;
+  outline: none;
+  font-family: inherit;
+}
+
+
+input:valid {
+  /* background: cyan; */
+  color: rgb(247, 5, 5);
+}
+input:invalid {
+  /* background: rgb(232, 60, 60); */
+  color: rgb(187, 0, 0);
+}

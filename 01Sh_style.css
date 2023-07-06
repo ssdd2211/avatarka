@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,900 & display=swap");
+
+body {
+  background-color: blanchedalmond;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-family: "Roboto" sans-serif;
+  font-weight: normal;
+  font-style: oblique;
+  padding: 10px 1px 25px 0px;
+  margin: 0 auto;
+  max-width: 650px;
+}
+
+.blu {
+  background-color: rgb(255, 224, 24);
+  border-radius: 10px;
+  margin: 1px 10px 2px 5px;
+  padding: 10px 5px 110px 2px;
+  box-shadow: 5px 5px 5px 3px rgb(83, 245, 13);
+}
+
+.card {
+  background-color: burlywood;
+  border-radius: 10px;
+  margin: 15px 10px 5px 10px;
+  padding: 3px 5px 5px 3px;
+  box-shadow: 5px 5px 3px 3px rgb(198, 70, 134);
+}
+.silk {
+  background-color: rgb(179, 255, 65);
+  border-radius: 20px;
+  margin: 15px 5px 40px 5px;
+  padding: 5px 10px 10px 15px;
+  box-shadow: 5px 5px 3px 3px chocolate;
+}
+
+a {
+  color: brown;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact {
+  background-color: rgb(20, 18, 18);
+  color: red;
+  border-radius: 20px;
+  padding: 5px 20px 10px 20px;
+  box-shadow: 5px 5px 3px 3px rgb(129, 102, 102);
+}
+
+.btn {
+  background-color: black;
+  color: rgb(236, 0, 0);
+  border-radius: 20px;
+  border: none;
+  box-shadow: 1px 2px 10px 5px rgb(224, 92, 92);
+  padding: 8px 8px 8px 8px;
+  margin-left: 250px;
+}
